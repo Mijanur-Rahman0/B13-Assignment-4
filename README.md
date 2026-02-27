@@ -1,10 +1,10 @@
 ### **Question-1: What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?**
 
-**1. getElementById:** It’s the most specific one. It only looks for a unique `id`. Since an ID should only be used once in a page, it returns just **one single element**.
+**1. getElementById:** It’s the most specific one. It only looks for a unique id. Since an ID should only be used once in a page, it returns just **one single element**.
 
 **2. getElementsByClassName:** This one looks for all elements that have a specific class. Since multiple elements can share the same class, it returns an **HTMLCollection** (which is like an array, but not exactly an array).
 
-**3. querySelector / querySelectorAll:** These are the most "modern" and flexible. You can use CSS-style selectors (like `.class`, `#id`, or `div > p`).
+**3. querySelector / querySelectorAll:** These are the most "modern" and flexible. You can use CSS-style selectors (like .class, #id, or div > p).
 * **querySelector:** Returns only the **first** element it finds that matches the criteria.
 * **querySelectorAll:** Returns a **NodeList** of all matching elements.
 
@@ -14,7 +14,7 @@
 
 To add something new to any webpage using JavaScript, we generally follow these steps:
 
-1.  **Create the Element:** Use `document.createElement('tagName')`. At this point, the element exists in JavaScript's "memory," but it’s not visible on the screen yet.
+1.  **Create the Element:** Use document.createElement('tagName'). At this point, the element exists in JavaScript's "memory," but it’s not visible on the screen yet.
     
 2.  **Insert it into the DOM:** Once it's created, we need to tell it where to go. There are three main ways to do this:
     * **appendChild():** This puts the new element at the very end of a parent element.
